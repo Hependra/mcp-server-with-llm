@@ -1,0 +1,41 @@
+                                                        MCP SERVER WITH LLM
+
+This project is based on how to use Multiple MCP server with LLM. We are using groq for llm as it's free to use. Just go to groq website and generate api key.
+
+How to install uv if you haven't installed yet.
+-- pip install uv
+
+After that intall all the libraries.
+
+-- uv init mcp server with llm
+-- cd mcp server with llm
+
+After that go to pyproject.toml and in dependencies check if mcp use and langchain groq wil be there.
+Now, let's create an environment.
+--uv venv 
+
+After that let's activate the environment.
+--.venv\Scripts\activate
+--()
+
+We have install basic libraries for use. Now install all the dependencies.
+-- uv add mcp-use
+-- uv add langchain-groq
+
+
+Now in your project, we have to create browser_mcp.json. After that just paste the code from this file or either copy this whole file.
+Create a file name app.py and copy the code from here.
+
+In the final step, in terminal run python app.py
+Now you give command to you llm and it will return back to you with answer.
+
+Here is the 3 tools.
+playwright- for websearch.
+airbnb- for hotel booking.
+duckduckgo - for online searching, Same as playwright.
+
+For reference go see the library mcp-use.
+And for full tutorial just go to krish naik https://www.youtube.com/watch?v=BG4F3b5QpjM&t=1050s.
+
+
+
